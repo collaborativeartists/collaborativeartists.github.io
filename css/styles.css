@@ -147,27 +147,22 @@ input,
 select {
   vertical-align: middle;
 }
-.navigation {
-/* Collapsed */
-  width: 0;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  color: #00f;
-}
-.page-wrap {
+header {
   width: 100%;
+  margin: 0 32;
+}
+header .logo {
+  width: 5%;
+  float: left;
+}
+header #nav {
   float: right;
-  color: #000;
+  width: 60%;
 }
-.navigation {
-  transition: width 0.3s ease;
+header .functional-icons {
+  width: 10%;
+  float: right;
 }
-#main-nav:target {
-  width: 20%;
-}
-#main-nav:target + .page-wrap {
-  width: 80%;
+#hero {
+  margin-top: 200px;
 }

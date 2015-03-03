@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Collaborative Artists | Home</title>
-    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/touch.js"></script>
     <script src="js/jquerymin.js"></script>
@@ -13,30 +13,56 @@
     <header class="main-header">
         <img src="img/logo.png" alt="" class="logo">
         <nav id="nav" role="navigation">
+            
             <a href="#nav" title="Show navigation">Show navigation</a>
+            
             <a href="#" title="Hide navigation">Hide navigation</a>
-            <ul>
+            
+            <!--  main-nav-ul -->
+            <ul> 
+                <!-- home-tab -->
                 <li><a href="/">Home</a></li>
-                <li>
-                <a href="/" aria-haspopup="true">Blog</a>
-            <ul>
-                <li><a href="/">Design</a></li>
-                <li><a href="/">HTML</a></li>
-                <li><a href="/">CSS</a></li>
-                <li><a href="/">JavaScript</a></li>
-            </ul>
-        </li>
-        <li>
-            <a href="/" aria-haspopup="true">Work</a>
-            <ul>
-                <li><a href="/">Web Design</a></li>
-                <li><a href="/">Typography</a></li>
-                <li><a href="/">Front-End</a></li>
-            </ul>
-        </li>
-        <li><a href="/">About</a></li>
-    </ul>
-</nav>
+                <!-- about-tab-->
+                <li><a href="/" aria-haspopup="true">About</a>
+                    <!-- about-dropdown -->
+                    <ul>
+                        <li><a href="/">The Site</a></li>
+                        <li><a href="/">Aden</a></li>
+                        <li><a href="/">Ffion</a></li>
+                        <li><a href="/">River</a></li>
+                    </ul>
+                </li>
+                <!-- services tab -->
+                <li><a href="/" aria-haspopup="true">Services</a>
+                    <!-- Services dropdown  -->
+                    <ul>    
+                        <li><a href="/">Custom Fine Arts</a></li>
+                        <li><a href="/">Web Development</a></li>
+                        <li><a href="/">Web Design</a></li>
+                        <li><a href="/">Graphic Design</a></li>
+                        <li><a href="/">Photography</a></li>
+                        <li><a href="/">Other</a></li>
+                    </ul>
+                </li>
+                <!-- store-tab -->
+                <li><a href="/" aria-haspopup="true">Store</a>
+                    <!-- store-dropdown -->
+                    <ul>
+                        <li><a href="/">Drawings</a></li>
+                        <li><a href="/">Paintings</a></li>
+                        <li><a href="/">Web Design</a></li>
+                        <li><a href="/">Graphic Design</a></li>
+                        <li><a href="/">Photography</a></li>
+                        <li><a href="/">Web HTML5 Templates</a></li>
+                        <li><a href="/">Other</a></li>
+                    </ul>
+                </li>
+                <!-- Just a contact tab :(   -->
+                <li><a href="/">Contact</a></li>
+                <!-- And a blog tab...  -->
+                <li><a href="/">Blog</a></li>
+             </ul>
+        </nav>
         <div class="functional-icons">
             <div class="basket">
                 <img src="" alt="Basket-img">
@@ -47,10 +73,9 @@
                 <img src="" alt="search-img">
             </div>
         </div>
-    <hr class="nav-seperator">
     </header>
-    <section>
-        <aricle class="page-width">
+    <section id="hero">
+        <aricle>
             <h1>The Collaborative Artist Project</h1>
         </aricle>
     </section>
