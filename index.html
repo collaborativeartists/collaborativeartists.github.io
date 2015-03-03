@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Collaborative Artists | Home</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/touch.js"></script>
+    <script src="js/jquerymin.js"></script>
+
+</head> <!-- end head -->
+<body>
+    <header class="main-header">
+        <img src="img/logo.png" alt="" class="logo">
+        <nav id="nav" role="navigation">
+            <a href="#nav" title="Show navigation">Show navigation</a>
+            <a href="#" title="Hide navigation">Hide navigation</a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li>
+                <a href="/" aria-haspopup="true">Blog</a>
+            <ul>
+                <li><a href="/">Design</a></li>
+                <li><a href="/">HTML</a></li>
+                <li><a href="/">CSS</a></li>
+                <li><a href="/">JavaScript</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="/" aria-haspopup="true">Work</a>
+            <ul>
+                <li><a href="/">Web Design</a></li>
+                <li><a href="/">Typography</a></li>
+                <li><a href="/">Front-End</a></li>
+            </ul>
+        </li>
+        <li><a href="/">About</a></li>
+    </ul>
+</nav>
+        <div class="functional-icons">
+            <div class="basket">
+                <img src="" alt="Basket-img">
+                <p>Basket</p>
+            </div>
+
+            <div class="search">
+                <img src="" alt="search-img">
+            </div>
+        </div>
+    <hr class="nav-seperator">
+    </header>
+    <section>
+        <aricle class="page-width">
+            <h1>The Collaborative Artist Project</h1>
+        </aricle>
+    </section>
+    <script>$( '#nav li:has(ul)' ).doubleTapToGo();</script>
+</body> <!-- end body -->
+</html>
